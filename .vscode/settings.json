@@ -1,0 +1,15 @@
+{
+    "python.defaultInterpreterPath": "${workspaceFolder}/venv/bin/python",
+    "python.linting.enabled": true,
+    "python.linting.pylintEnabled": true,
+    "python.linting.pylintArgs": [
+        "--disable=missing-docstring"
+    ],
+    "[python]": {
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "ms-python.python"
+    },
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}"
+    ]
+}
